@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mows</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+
+<body>
+    <center>
+        <h2>IOT Fan Switch</h2>
+        <center><br>
+            <h3 id="status"></h3>
+            <button class="btn btn-log btn-primary" id="btn-Off" >Off</button>
+            <button class="btn btn-log btn-primary" id="btn-one" >1</button>
+            <button class="btn btn-log btn-primary" id="btn-two" >2</button>
+            <button class="btn btn-log btn-primary" id="btn-three" >3</button>
+        </center>
+        
+        <script src="scripts/browserMqtt1.js"></script>
+        <script src="scripts/controller1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+
+
+</body>
+</html>

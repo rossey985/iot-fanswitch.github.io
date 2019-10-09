@@ -1,0 +1,81 @@
+ html body{
+    height: 100%;
+    background-image: url(https://pa1.narvii.com/6495/ac9beddf79d8ca2042047b7c8ce50c2eda3fe50f_hq.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+h2 {
+    color: chocolate;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 15%;
+}
+h3 {
+    color: crimson;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*.card{
+    height: 330px;
+    color: lightseagreen;
+    font-weight: bold;
+    border:5px solid black; 
+}
+.form-control{
+    border-width:5px;  
+}
+#connect-status{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+label.status1 {
+    font-size: 25px;
+    color: blue;
+}
+button{
+    border-width:2px;  
+    border-style:ridge;
+}
+h4{
+   color: black; 
+   text-align: center;
+   margin-left: 40%;
+   margin-right: 46%;
+   font-weight: bold;
+   
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+ .table{
+    
+    overflow-y: auto; 
+    height: 200px;
+    background-color: gray;
+    border: 5px solid black;
+   
+ }
+table th{ 
+    position: sticky;
+    top: 0;
+    }
+
+table  { 
+    
+    border-collapse: collapse; 
+    width: 100%; 
+}
+td , tr { 
+    padding: 8px 16px;
+    border: 3px solid blue;
+    background-color: aqua;
+}
+th     { 
+    border: 2px;
+    color: red;
+    text-align: center;
+} */
